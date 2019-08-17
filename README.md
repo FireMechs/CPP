@@ -1,7 +1,8 @@
  #  CPP projects
 ##  Basic cpp projects
 This is a basic cpp projects
-##   1. Students Management system(SMS).
+##    Students Management system(SMS)
+
 
     File  list
  
@@ -18,7 +19,6 @@ This is a basic cpp projects
         * Details - search students database and  show their details.
         *  Edit   - delete or change student's details from the system.
 
-
    __Anyone can fork the repo and contribute to the project__
 
    
@@ -30,13 +30,13 @@ This is a basic cpp projects
     
     * create and setup a local copy of the online repository offline
 
-	 * fork the repository online 
+	 *  fork the repository online 
 
-         * ```bash 
+          ```bash 
 		git clone <repo_link>  #clone the repo offline
             ```
 
-         *  ```bash
+           ```bash
 		cd repo  #change into the repo
 	     ```
 

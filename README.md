@@ -1,7 +1,7 @@
  #  CPP projects
 ##  Basic cpp projects
 This is a basic cpp projects
-### 1.    Students Management system(SMS)
+##    Students Management system(SMS)
 
 File  list
  
@@ -24,54 +24,48 @@ __Anyone can fork the repo and contribute to the project__
    
 ___Follow the following  procedure to setup  a local repo and contribute to the project___
 
-
 ####  Make sure to have git installed on your system
 
     
 * create and setup a local copy of the online repository offline
+* fork the repository online 
 
-   * fork the repository online 
-
-   * ```bash 
-		git clone <repo_link>  #clone the repo offline
-            ```
-
-    *  ```bash
-		cd repo  #change into the repo
-	     ```
-
+```bash 
+git clone <repo_link>  #clone the repo offline
+ ```
+```bash
+cd repo  #change into the repo
+  ```
 * create a new remote that points to the original project
 
 ```bash
 git remote add upstream  <repo_link>
-	```
+```
 
 * ensure  that you are on   master branch
 
-        ```bash
-		 git checkout master
-        ```
+```bash
+git checkout master
+```
 * sync your local  copy  with the upstream project
 
-        ```bash 
-		git pull upstream master
-        ```
+```bash 
+git pull upstream master
+```
 
 * sync to  your forked repository
 
-        ```bash
-		 git push origin master
-        ```
-
+```bash
+git push origin master
+```
 * create  a branch
   
-      ```bash
-      		 git checkout -b <branch_name>
-        ```
-
+```bash
+git checkout -b <branch_name>
+```
 * push a new branch 
       
-      ```bash
-                 git push -u origin  <branch_name>
-      ```
+```bash
+git push -u origin  <branch_name>
+```
  

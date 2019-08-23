@@ -1,7 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <string>
-#include <experimental/filesystem>
+//#include <experimental/filesystem>//not available in windows
 
 using namespace std;
 
@@ -55,7 +55,7 @@ class students
 		{
 		   if(ofs.is_open())
                    	ofs << name << "	" << std::to_string(age) << "	" << std::to_string(reg) << "	" << std::to_string(birthcert) << "	" << std::to_string(phone_no) << "	" << county <<"\n";
-		   
+
 		}
 		void exam()
 		{
@@ -71,8 +71,8 @@ class students
 			{
 		           cerr << "File not open " << endl;
 	                   exit(-1);
-			}	
-	                string find_line  , return_line;		
+			}
+	                string find_line  , return_line;
 			while(getline(ifs , find_line))
 			{
 				if(find_line.find(search_key , 0) != string::npos)
@@ -96,7 +96,7 @@ class students
 			 {
 				 cerr << "Error , files could not be opened" << endl;
 				 exit(-1);
-			 } 
+			 }
 			 ofs << ifs.rdbuf();
 			 ofs.close();
 			 ifs.close();
@@ -126,6 +126,6 @@ int main()
 		       cerr << "Choice not available at this instant " << endl;
 		       break;
 	}
-        stud.~students();		    	
+        stud.~students();
 	return 0;
 }
